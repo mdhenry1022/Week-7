@@ -1,0 +1,28 @@
+{
+  "name": "it3046-lab-7-seed",
+  "version": "1.0.0",
+  "description": "Seed project for Lab 7",
+  "main": "script.js",
+  "scripts": {
+    "start": "./node_modules/.bin/json-server --watch data.json & ./node_modules/.bin/http-server -p 8080",
+    "json": "./node_modules/.bin/json-server --watch data.json",
+    "http": "./node_modules/.bin/http-server -p 8080",
+    "lint": "./node_modules/.bin/eslint script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.uc.edu:livelyar/IT3046C-Lab-7-Seed.git"
+  },
+  "author": "Andrew Lively <livelyar@ucmail.uc.edu>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.4.2",
+    "eslint-plugin-react": "^5.1.1",
+    "http-server": "^0.9.0",
+    "json-server": "^0.8.14"
+  }
+}
